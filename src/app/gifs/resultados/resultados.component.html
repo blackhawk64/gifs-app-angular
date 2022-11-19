@@ -1,6 +1,6 @@
 <div class="row">
     <div *ngFor="let gif of resultados"
-        class="col-md-4 col-sm-12">
+        class="col-md-4 col-sm-12 animate__animated animate__pulse">
         <div class="card">
                 <img [src]="gif.images.downsized_medium.url" 
                     [alt]="gif.title || 'Sin titulo' "

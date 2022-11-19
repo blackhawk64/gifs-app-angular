@@ -4,7 +4,8 @@
     <div class="list-group list-reset">
         <a href="#" 
             class="list-group-item list-group-item-action"
-            *ngFor="let gif of gifs">
+            *ngFor="let gif of gifs"
+            (click)="verGifs(gif)">
             {{ gif | titlecase }}
         </a>
     </div>
